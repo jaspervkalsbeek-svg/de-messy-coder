@@ -26,12 +26,10 @@ Het testen van de portfolio website van Lorenzo van Matterhorn en het vastleggen
 
 | Rol | Taken | Persoon |
 |---|---|---|
-| **Projectleider** | Coördineert taken, bewaakt planning, maakt het einddocument compleet | (in te vullen) |
-| **Tester - Functionaliteit** | Test of alle links, knoppen en pagina's werken | (in te vullen) |
-| **Tester - Codekwaliteit** | Beoordeelt de code op structuur, leesbaarheid en best practices | (in te vullen) |
-| **Tester - Beveiliging & Usability** | Controleert beveiligingsproblemen en gebruikerservaring | (in te vullen) |
-
-> **Let op:** Deze rollen zijn voorstellen. Bespreek samen wie welke rol oppakt op basis van interesse en leerdoelen.
+| **Projectleider + Performance** | Coördineert taken, bewaakt planning, test loadtime/efficiency, maakt einddocument compleet | Jasper |
+| **Tester - Functionaliteit** | Test of alle links, knoppen, navigatie en pagina's werken | Chester |
+| **Tester - Codekwaliteit** | Beoordeelt de code op structuur, leesbaarheid, spelling en best practices | Len |
+| **Tester - Beveiliging & Usability** | Controleert beveiligingsproblemen (SQL, credentials, XSS) en gebruikerservaring | Jhovaino |
 
 ---
 

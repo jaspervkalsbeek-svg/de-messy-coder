@@ -25,10 +25,10 @@
 - [ ] Eerste testen uitvoeren
 
 ### Woensdag 9 september - Testen (dag 1)
-- [ ] **Jasper**: Test functionaliteit (links, navigatie, formulieren)
-- [ ] **Chester**: Test codekwaliteit (structuur, spelling, HTML/PHP)
-- [ ] **Len**: Test beveiliging (database credentials, SQL injectie, XSS)
-- [ ] **Jhovaino**: Test usability (mobiel, toegankelijkheid, gebruiksvriendelijkheid)
+- [ ] **Chester**: Test functionaliteit (links, navigatie, formulieren)
+- [ ] **Len**: Test codekwaliteit (structuur, spelling, HTML/PHP)
+- [ ] **Jhovaino**: Test beveiliging (database credentials, SQL injectie, XSS) en usability
+- [ ] **Jasper**: Test performance (laadsnelheid, efficiëntie)
 
 ### Donderdag 10 september - Testen (dag 2)
 - [ ] Testen afmaken
