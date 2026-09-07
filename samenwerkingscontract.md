@@ -72,7 +72,7 @@ Door te ondertekenen ga je akkoord met bovenstaande afspraken.
 
 | Naam | Handtekening | Datum |
 |---|---|---|
-| Jasper | _________________ | ___ / ___ / 2026 |
+| Jasper | jasper | 7 / 9 / 2026 |
 | Chester | _________________ | ___ / ___ / 2026 |
 | Len | Len van der Spoel | 7 / 9 / 2026 |
 | Jhovaino | _________________ | ___ / ___ / 2026 |
