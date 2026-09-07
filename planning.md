@@ -27,8 +27,8 @@
 ### Woensdag 9 september - Testen (dag 1)
 - [ ] **Chester**: Test functionaliteit (links, navigatie, formulieren)
 - [ ] **Len**: Test codekwaliteit (structuur, spelling, HTML/PHP)
-- [ ] **Jhovaino**: Test beveiliging (database credentials, SQL injectie, XSS) en usability
-- [ ] **Jasper**: Test performance (laadsnelheid, efficiëntie)
+- [ ] **Jhovaino**: Test beveiliging, performance (database credentials, SQL injectie, XSS) en usability (laadsnelheid, efficiëntie)
+- [ ] **Jasper**: Test teamleider (overdracht geven, voortgang bewaken, hulp bieden waar nodig)
 
 ### Donderdag 10 september - Testen (dag 2)
 - [ ] Testen afmaken
