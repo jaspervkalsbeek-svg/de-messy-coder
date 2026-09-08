@@ -116,7 +116,7 @@
 | **Bestand** | Git history |
 | **Beschrijving** | De commit messages zijn niet duidelijk over wat er veranderd is |
 
-### BUG-016: Spelfouten in tekst
+### BUG-016: spelfouten
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
@@ -125,7 +125,7 @@
 | **Beschrijving** | hebben spellfouten in navigatie  |
 | **Voorbeelden** | projet.php |
 
-### BUG-017: Spelfouten in tekst
+### BUG-017: duplicatie
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
@@ -135,7 +135,7 @@
 | **Voorbeelden** | dezelfde CSS voor binnen bestand |
 
 
-### BUG-018: Spelfouten in tekst
+### BUG-018: duplicatie
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
@@ -145,7 +145,7 @@
 | **Voorbeelden** | dezelfde JS code binnen bestand |
 
 
-### BUG-019: Spelfouten in tekst
+### BUG-019: onregelmatige benaming
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
@@ -155,7 +155,7 @@
 | **Voorbeelden** | class="een-voorbeeld" function eenVoorbeeld()|
 
 
-### BUG-020: Spelfouten in tekst
+### BUG-020: duplicatie
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
@@ -164,16 +164,16 @@
 | **Beschrijving** | body en Footer zijn vaak hetzelfde |
 | **Voorbeelden** | body en footer zijn vaak gekopieerd |
 
-### BUG-021: Spelfouten in tekst
+### BUG-021: mappenstructuur
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
-| **Ernst** | Laag |
+| **Ernst** | Extreem |
 | **Bestand** | `mappenstructuur` |
 | **Beschrijving** | mappenstructuur is zeer moeilijk te navigeren |
 | **Voorbeelden** | alle bestanden in een map |
 
-### BUG-022: Spelfouten in tekst
+### BUG-022: bestands benaming
 | | |
 |---|---|
 | **Status** | 🔴 Actief |
