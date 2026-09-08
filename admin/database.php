@@ -18,9 +18,3 @@
         // echo "Verbinding geslaagd!";
     }
 ?>
-
-<!-- unnecessary html -->
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-                 

@@ -84,7 +84,7 @@
 ### BUG-007: Functie aangeroepen vóór definitie
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Medium |
 | **Bestand** | `projects.php` |
 | **Beschrijving** | `$image = getPhoto($uuid)` wordt aangeroepen voordat de functie `getPhoto()` gedefinieerd is |
@@ -93,7 +93,7 @@
 ### BUG-008: Dubbele main elementen
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `index.php`, `contact.php` |
 | **Beschrijving** | Meerdere `<main>` tags op één pagina |
@@ -102,7 +102,7 @@
 ### BUG-009: database.inc.php bevat HTML
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Medium |
 | **Bestand** | `database.inc.php` |
 | **Beschrijving** | Het PHP-bestand bevat een incomplete HTML structuur |
@@ -111,7 +111,7 @@
 ### BUG-010: Git commit messages niet informatief
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | Git history |
 | **Beschrijving** | De commit messages zijn niet duidelijk over wat er veranderd is |
@@ -119,7 +119,7 @@
 ### BUG-016: spelfouten
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Gemiddeld |
 | **Bestand** | `alle kerntaak bestanden` |
 | **Beschrijving** | hebben spellfouten in navigatie  |
@@ -128,7 +128,7 @@
 ### BUG-017: duplicatie
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `alle bestanden` |
 | **Beschrijving** | overbodig CSS code duplicatie |
@@ -138,7 +138,7 @@
 ### BUG-018: duplicatie
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `alle bestanden` |
 | **Beschrijving** | Overbodig JS code duplicatie |
@@ -148,7 +148,7 @@
 ### BUG-019: onregelmatige benaming
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `Bijna alle documenten` |
 | **Beschrijving** | Class is gedaan met pascal-case en functies met CamalCase |
@@ -158,7 +158,7 @@
 ### BUG-020: duplicatie
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `alle bestanden` |
 | **Beschrijving** | body en Footer zijn vaak hetzelfde |
@@ -167,7 +167,7 @@
 ### BUG-021: mappenstructuur
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Extreem |
 | **Bestand** | `mappenstructuur` |
 | **Beschrijving** | mappenstructuur is zeer moeilijk te navigeren |
@@ -176,7 +176,7 @@
 ### BUG-022: bestands benaming
 | | |
 |---|---|
-| **Status** | 🔴 Actief |
+| **Status** | Opgelost |
 | **Ernst** | Laag |
 | **Bestand** | `database.inc.php` |
 | **Beschrijving** | onnodige naam |

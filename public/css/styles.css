@@ -1,136 +1,148 @@
 * {
-      box-sizing: border-box;
-    }
+    box-sizing: border-box;
+}
 
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #FEFCE8;
-      color: #1F2937;
-      display: flex;
-      flex-direction: column;
-      min-height: 945px;
-      transition: background-color 0.5s, color 0.5s;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #FEFCE8;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    min-height: 945px;
+    transition: background-color 0.5s, color 0.5s;
+}
 
-    body.dark-mode {
-      background-color: #0F172A;
-      color: #F8FAFC;
-    }
+body.darkMode {
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
 
-    header {
-      position: relative;
-      background: linear-gradient(to top, #FFB347, #FF7E5F);
-      color: white;
-      padding: 90px 15px 150px 15px;
-      text-align: center;
-      overflow: hidden;
-      transition: background-color 0.5s;
-    }
+header {
+    position: relative;
+    padding: 90px 15px 150px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to top, #FFB347, #FF7E5F);
+    transition: background-color 0.5s;
+}
 
-    body.dark-mode header {
-      background: linear-gradient(to top, #1E3A8A, #0F172A);
-    }
+body.darkMode header {
+    background: linear-gradient(to top, #1E3A8A, #0F172A);
+}
 
-    .mountains {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 1920px;
-      height: 150px;
-      background: linear-gradient(to top, #1E3A8A 0%, transparent 100%);
-      clip-path: polygon(
-        0% 100%, 10% 60%, 20% 85%, 30% 50%, 40% 80%,
-        50% 40%, 60% 75%, 70% 45%, 80% 70%, 90% 50%, 100% 100%
-      );
-    }
+.mountains {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1920px;
+    height: 150px;
+    background: linear-gradient(to top, #1E3A8A 0%, transparent 100%);
+    clip-path: polygon(0% 100%,
+            10% 60%,
+            20% 85%,
+            30% 50%,
+            40% 80%,
+            50% 40%,
+            60% 75%,
+            70% 45%,
+            80% 70%,
+            90% 50%,
+            100% 100%);
+}
 
-     .dark-mode .mountains {
-      background: linear-gradient(to top, #1E0A4A 0%, transparent 100%);
-    }
+.darkMode .mountains {
+    background: linear-gradient(to top, #1E0A4A 0%, transparent 100%);
+}
 
-    header h1,
-    header p,
-    header nav {
-      position: relative;
-      z-index: 1;
-    }
+header h1,
+header p,
+header nav {
+    position: relative;
+    z-index: 1;
+}
 
-    header h1 a {
-      color: white;
-      text-decoration: none;
-    }
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
 
-    header h1 a:hover {
-        text-decoration: underline;
-    }
+header h1 a:hover,
+nav a:hover {
+    text-decoration: underline;
+}
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      margin-top: 10px;
-    }
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+}
 
-    nav li {
-      margin: 0 15px;
-    }
+nav li {
+    margin: 0 15px;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-    }
+nav a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+.darkToggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    border: none;
+    color: #1E3A8A;
+    background: transparent;
+    cursor: pointer;
+    font-size: 30px;
+}
 
-    .dark-toggle {
-      position: fixed;
-      top: 15px;
-      right: 15px;
-      color: #1E3A8A;
-      border: none;
-      cursor: pointer;
-      z-index: 999;
-      background: transparent;
-      font-size: 30px;
-    }
+.darkToggle::before {
+    content: "🌕";
+}
 
-    .dark-toggle::before {
-        content: "🌕";
-    }
+.darkMode .darkToggle {
+    color: #fff;
+}
 
-    .dark-mode .dark-toggle {
-      color: #fff;
-    }
-    
-    .dark-mode .dark-toggle::before {
-        content: "";
-    }
+.darkMode .darkToggle::before {
+    content: "";
+}
 
-    main {
-      flex: 1;
-      max-width: 960px;
-      margin: 30px auto;
-      padding: 23px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      width: 1000px;
-      transition: background-color 0.5s;
-    }
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 23px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.5s;
+}
 
-    body.dark-mode main {
-      background-color: #1E293B;
-    }
+main a {
+    color: black;
+}
 
-    footer {
-      background-color: #1E3A8A;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
+main a:hover {
+    color: grey;
+}
+
+body.darkMode main {
+    background-color: #1E293B;
+}
+
+footer {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    background-color: #1E3A8A;
+}
