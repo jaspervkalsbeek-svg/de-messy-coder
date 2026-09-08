@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lorenzo von Matterhorn - Portofolio</title>
+  <!-- style.css duplicatie -->
   <style>
     * {
       box-sizing: border-box;
@@ -142,6 +143,7 @@
       padding: 15px;
     }
   </style>
+  <!-- script duplicatie -->
   <script>
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
@@ -149,6 +151,7 @@
   </script>
 </head>
 <body>
+  <!-- same button and geader -->
   <button class="dark-toggle" onclick="toggleDarkMode()"></button>
   <header>
     <h1><a href=".">Lorenzo von Matterhorn</a></h1>
@@ -157,6 +160,7 @@
       <ul>
         <li><a href="about.php">Over Mij</a></li>
         <li><a href="projects.php">Projecten</a></li>
+        <!-- was origineel een spelfout -->
         <li><a href="kerntaken.php">Kerntaken</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
@@ -216,7 +220,7 @@
 
 
   </main>
-
+<!-- footer duplicatie -->
   <footer>
     © <?php echo date("Y+2"); ?> Swarley
   </footer>

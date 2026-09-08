@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lorenzo von Matterhorn - Portofolio</title>
+  <!-- style ducplicatie -->
   <style>
     * {
       box-sizing: border-box;
@@ -142,6 +143,7 @@
       padding: 15px;
     }
   </style>
+  <!-- js duplicatie -->
   <script>
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
@@ -149,6 +151,7 @@
   </script>
 </head>
 <body>
+  <!-- zelfde button en header -->
   <button class="dark-toggle" onclick="toggleDarkMode()"></button>
   <header>
     <h1><a href=".">Lorenzo von Matterhorn</a></h1>
@@ -158,8 +161,9 @@
     </nav>
     <div class="mountains"></div>
   </header>
-
+<!-- ongebruikt element -->
   <nav> </nav>
+  <!-- ongebruikt element -->
   <main></main>
   <main>
     <h1>Hoe kom je in contact met mij?</h1>
@@ -168,7 +172,7 @@
     <p>Tijdens mijn studtie ben ik bezig geweest met verschillende projecten, van kleine apps tot grotere websites. Door deze ervaringen heb ik veel geleerd over het ontwerpen en bouwen van software, en hoe je samen met anderen het beste resultaat behaaldt.</p>
     <p>Ik ben altijd op zoek naar nieuwe uitdagingen en samenwerkingen, dus stuur gerust een berichtje als je interese hebt om samen te werken of gewoon vragen hebt!</p>
   </main>
-
+<!-- footer duplicatie -->
   <footer>
     © <?php print date('Y'); ?> Swarley & CO
   </footer>

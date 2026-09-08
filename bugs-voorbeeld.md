@@ -35,7 +35,8 @@
 | **Status** | 🔴 Actief |
 | **Ernst** | Laag |
 | **Bestand** | `index.php` |
-| **Beschrijving** | `index.php` heeft een lege `<nav>` en twee lege `<main>` tags |
+<!-- dit is eerder code kwaliteit -->
+| **Beschrijving** | `index.php` heeft een lege `<nav>` en twee lege `<main>` tags | 
 | **Oplossing** | Ver overtollige elementen |
 
 ### BUG-003: Foutieve jaar-berekening contact.php
@@ -66,6 +67,7 @@
 | **Status** | 🔴 Actief |
 | **Ernst** | Laag |
 | **Bestand** | `index.php` |
+<!-- dit is eerder functionaliteit, dit zijn tekst elementen wat geen effect heeft op code -->
 | **Beschrijving** | Meerdere spelfouten in de Nederlandse tekst |
 | **Voorbeelden** | "Portofolio" → "Portfolio", "geleerdt" → "geleerd", "goei" → "goed", "niewsgierig" → "nieuwsgierig", "studtie" → "studie", "behaaldt" → "behaald", "interese" → "interesse" |
 
@@ -75,6 +77,7 @@
 | **Status** | 🔴 Actief |
 | **Ernst** | Laag |
 | **Bestand** | Diverse |
+<!-- ook eerder functioneel, dit kan ook een beslissing zijn van de site maker zelf, en heeft geen effect op de executie van code alleen visueel.-->
 | **Beschrijving** | De `.mountains` kleur verschilt tussen pagina's: `#1E3A8A` (blauw) vs `#1E8A3A` (groen) |
 | **Oplossing** | Maak de kleur consistent |
 
@@ -112,6 +115,73 @@
 | **Ernst** | Laag |
 | **Bestand** | Git history |
 | **Beschrijving** | De commit messages zijn niet duidelijk over wat er veranderd is |
+
+### BUG-016: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Gemiddeld |
+| **Bestand** | `alle kerntaak bestanden` |
+| **Beschrijving** | hebben spellfouten in navigatie  |
+| **Voorbeelden** | projet.php |
+
+### BUG-017: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `alle bestanden` |
+| **Beschrijving** | overbodig CSS code duplicatie |
+| **Voorbeelden** | dezelfde CSS voor binnen bestand |
+
+
+### BUG-018: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `alle bestanden` |
+| **Beschrijving** | Overbodig JS code duplicatie |
+| **Voorbeelden** | dezelfde JS code binnen bestand |
+
+
+### BUG-019: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `Bijna alle documenten` |
+| **Beschrijving** | Class is gedaan met pascal-case en functies met CamalCase |
+| **Voorbeelden** | class="een-voorbeeld" function eenVoorbeeld()|
+
+
+### BUG-020: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `alle bestanden` |
+| **Beschrijving** | body en Footer zijn vaak hetzelfde |
+| **Voorbeelden** | body en footer zijn vaak gekopieerd |
+
+### BUG-021: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `mappenstructuur` |
+| **Beschrijving** | mappenstructuur is zeer moeilijk te navigeren |
+| **Voorbeelden** | alle bestanden in een map |
+
+### BUG-022: Spelfouten in tekst
+| | |
+|---|---|
+| **Status** | 🔴 Actief |
+| **Ernst** | Laag |
+| **Bestand** | `database.inc.php` |
+| **Beschrijving** | onnodige naam |
+| **Voorbeelden** | .inc is onnodig |
+
 
 ---
 

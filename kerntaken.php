@@ -1,13 +1,14 @@
 <?php
   $pathToKerntakenDirectory = "kerntaken/";
 ?>
-
+<!-- half gebruikt ^ -->
 <!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lorenzo von Matterhorn - Portofolio</title>
+  <!-- css duplicatie -->
   <style>
     * {
       box-sizing: border-box;
@@ -154,12 +155,14 @@
       padding: 15px;
     }
   </style>
+  <!-- script duplicatie -->
   <script>
     function toggleDarkMode() {
       document.body.classList.toggle('dark-mode');
     }
   </script>
 </head>
+<!-- same button and header -->
 <body>
   <button class="dark-toggle" onclick="toggleDarkMode()"></button>
   <header>
@@ -181,6 +184,7 @@
       <li><a href="kerntaken/b1k1w4.php">B1-K1-W4 - Test software</a></li>
       <li><a href="<?php print $pathToKerntakenDirectory; ?>  b1k1w5.php">B1-K1-W5 - Doet verbetervoorstellen voor de software</a></li>
     </ul>
+    <!-- waarom maar half gebruikt? -->
     <h2>Voert ICT-projecten uit</h2>
     <ul>
       <li><a href="kerntaken/b1k2w1.php">B1-K2-W1 - Werkt samen in een projectteam</a></li>
@@ -188,7 +192,7 @@
       <li><a href="kerntaken/b1k2w3.php">B1-K2-W3 - Evalueert de samenwerking</a></li>
     </ul>
   </main>
-
+<!-- Ander gedrag van ander bestanden en duplicatie -->
   <footer>
     © 2025 Swarley
   </footer>
