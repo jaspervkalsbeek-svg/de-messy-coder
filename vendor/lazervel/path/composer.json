@@ -1,0 +1,39 @@
+{
+  "name": "lazervel/path",
+  "description": "Help with handling or manipulating file and directory path.",
+  "type": "library",
+  "keywords": ["path", "fs", "filesystem"],
+  "license": "MIT",
+  "homepage": "https://github.com/lazervel",
+  "autoload": {
+    "psr-4": {
+      "Lazervel\\Path\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "lazervel/url": ">=1.0"
+  },
+  "authors": [
+    {
+      "name": "Indian Modassir",
+      "email": "indianmodassir@gmail.com",
+      "homepage": "https://github.com/indianmodassir"
+    }
+  ],
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/indianmodassir"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "php-http/discovery": false
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

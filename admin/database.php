@@ -1,20 +1,18 @@
-<!-- Hier staan de inloggegevens van de Database -->
-
 <?php
-    // dit is de GLOBAL Scope van ons geheugenbeheer //
-    // Dit moet nog opgelost worden, dit is een security issue //
-    $host = "localhost";
-    $username = "WebsiteUser"; // default is root
-    $password = "#W3bU53r51T3!"; //default is leeg of root
-    $database = "db_awfulportfolio"; //de naam van de database die je aanmaakt
+require_once __DIR__ . '/../vendor/autoload.php';
 
-    // Maak verbinding met de database
-    $conn = new mysqli($host, $username, $password, $database); 
+use Dotenv\Dotenv;
 
-    // Controleer de verbinding
-    if ($conn->connect_error) { 
-        die("Verbinding mislukt: " . $conn->connect_error); 
-    } else {
-        // echo "Verbinding geslaagd!";
-    }
-?>
+$dotenv = Dotenv::createImmutable(__DIR__ . '/..');
+$dotenv->load();
+
+$host = $_ENV['DB_HOST'] ?? 'localhost';
+$username = $_ENV['DB_USERNAME'] ?? '';
+$password = $_ENV['DB_PASSWORD'] ?? '';
+$database = $_ENV['DB_NAME'] ?? '';
+
+$conn = new mysqli($host, $username, $password, $database);
+
+if ($conn->connect_error) {
+    die("Verbinding mislukt: " . $conn->connect_error);
+}

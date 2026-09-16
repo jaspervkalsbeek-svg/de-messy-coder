@@ -1,0 +1,27 @@
+{
+  "name": "lazervel/url",
+  "description": "URL resolution and parsing meant to have feature parity with PHP core",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/lazervel",
+  "keywords": ["url", "php", "parser"],
+  "autoload": {
+    "psr-4": {
+      "Lazervel\\Url\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Indian Modassir",
+      "email": "indianmodassir@gmail.com",
+      "homepage": "https://github.com/indianmodassir"
+    }
+  ],
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/indianmodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
